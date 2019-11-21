@@ -26,8 +26,8 @@ library(caret)
 ```
 ```{r load}
 # Read Data
-Training <- read.csv("../input/train.csv")
-Test <- read.csv("../input/test.csv")
+Training <- read.csv("train.csv")
+Test <- read.csv("test.csv")
 # Test whether data is successfully loaded
 names(Training)
 
